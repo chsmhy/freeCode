@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googlefonts.cn/css?family=Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-structure">
+      <header>
+        <a href="">
+          <div class="logo">Travel</div>
+        </a>
+        <div class="menu-logo"></div>
+      </header>
+      <div class="content">
+        <!--为什么用5个video 因为用js修改 video src属性
+          会导致播放时候有光感跳跃 不够流畅
+          autoplay 自动播放 muted 静音 loop循环播放
+        -->
+        <video src="../static/video/sea.mp4" autoplay muted loop></video>
+        <video src="../static/video/flower.mp4" autoplay muted loop></video>
+        <video
+          src="../static/video/riversGirls.mp4 "
+          autoplay
+          muted
+          loop
+        ></video>
+        <video src="../static/video/beachGirls.mp4" autoplay muted loop></video>
+        <video src="../static/video/flower.mp4" autoplay muted loop></video>
+        <div class="video-overlay"></div>
+        <section class="text-description">
+          <h1></h1>
+          <h2></h2>
+          <p></p>
+          <a href="#"></a>
+        </section>
+      </div>
+      <footer>
+        <a href="#"><img src="../static/icon/wb.png" alt="weibo" /></a>
+        <a href="#"><img src="../static/icon/QQ-circle-fill.png" alt="qq" /></a>
+        <a href="#"><img src="../static/icon/wx.png" alt="wx" /></a>
+      </footer>
+    </section>
+    <section class="aside-menu">
+      <a href="#"><span>Island</span></a>
+      <a href="#"><span>Spring</span></a>
+      <a href="#"><span>Summer</span></a>
+      <a href="#"><span>autumn</span></a>
+      <a href="#"><span>winter</span></a>
+    </section>
+  </body>
+  <script src="../js/content.js"></script>
+  <script src="../js/script.js"></script>
+</html>
